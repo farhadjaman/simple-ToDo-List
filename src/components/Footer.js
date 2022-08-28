@@ -29,7 +29,7 @@ export default function Footer() {
 
     return (
 
-        <div className="mt-4 flex justify-between text-xs text-gray-500">
+        <div className="mt-4 flex md:flex-row flex-col md:justify-between items-center gap-y-2 text-xs text-gray-500">
             <p>{tasks} tasks left</p>
             <ul className="flex space-x-1 items-center text-xs">
                 <li className={`cursor-pointer ${status === "ALL" ? "font-bold" : ""}`}
